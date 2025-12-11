@@ -15,3 +15,5 @@ class TaskPreferences(context: Context) {
         return sharedPref.getString(taskId, "pending") ?: "pending"
     }
 }
+
+//Check if push is success
